@@ -3,7 +3,7 @@
 
 int main(){
 int n ,x ,i,somme=0,cpt=0,cpt2=0;//le compteur de nombre pair//
-float moyenne
+float moyenne;
 do{
     printf("saisir un entier");
     scanf("%d",&n);
@@ -23,6 +23,6 @@ for(i=0;i<n;i++){
 }
 moyenne=(float)somme/cpt;
 printf("\n la moyenne est de : 1.%f\n", moyenne);
-printf("le nombre de nombre impair est: %d",cpt2)
+printf("le nombre de nombre impair est: %d",cpt2);
 }
 
